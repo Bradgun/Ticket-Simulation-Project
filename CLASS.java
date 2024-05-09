@@ -38,7 +38,7 @@ public boolean checkValidity(int month, int day)
 
 public double calculateTicketPrice(int month, int day)
 {
-    if (isHoliday == true) {
+    if (isHoliday) {
         System.out.println("Ticket prices for " + holiday + " will cost you $150");
     }
     if (month == 6 || month == 7 || month == 8) {
