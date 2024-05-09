@@ -22,7 +22,7 @@ public static void main(String args[])
     calculateTicketPrice(month, day);
 }
 
-public boolean checkValidity(int month, int day)
+public static boolean checkValidity(int month, int day)
 {
     boolean valid = true;
     if (month < 1 || month > 12) {
@@ -36,7 +36,7 @@ public boolean checkValidity(int month, int day)
     return valid;
 }
 
-public double calculateTicketPrice(int month, int day)
+public static double calculateTicketPrice(int month, int day)
 {
     boolean isHoliday = true;
     String holiday;
