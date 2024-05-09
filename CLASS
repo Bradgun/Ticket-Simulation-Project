@@ -7,11 +7,14 @@ public static void main(String args[])
     int day;
     boolean valid = false;
 
+    System.out.println("Hi, Welcome to Six Flags Theme Park!");
+    System.out.println("Please enter the month and day you would like to purchase tickets");
+
     while(!valid)
     {
-        System.out.println("Enter a month: ");
+        System.out.print("Enter month: ");
         month = scnr.nextInt();
-        System.out.println("Enter a day: ");
+        System.out.print("Enter day: ");
         day = scnr.nextInt();
         valid = checkValidity(month, day);
     }
