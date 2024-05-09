@@ -38,10 +38,14 @@ public boolean checkValidity(int month, int day)
 
 public double calculateTicketPrice(int month, int day)
 {
-    if (month == 6 || month == 7 || month == 8) {
-    System.out.println("Ticket prices for " + month + "/" + day " will cost you $125 in the summer.");
+    if (month == 6 || month == 7 || month == 8) 
+    {
+        System.out.println("Ticket prices for " + month + "/" + day " will cost you $125 in the summer.");
     }
-    else if (month = 6)
+    else if (month == 6)
+    {
+        
+    }
 }
 
 public String checkHoliday(int month, int day)
