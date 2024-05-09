@@ -24,7 +24,16 @@ public static void main(String args[])
 
 public boolean checkValidity(int month, int day)
 {
-
+    boolean valid = true;
+    if (month < 1 || month > 12) {
+        System.out.println("Invalid month. Enter valid month between 1 - 12.");
+        valid = false;
+    }
+    else if (day < 1 || day > 31) {
+        System.out.println("Invalid day. Enter day between 1 - 31.");
+        valid = false;
+    }
+    return valid;
 }
 
 public double calculateTicketPrice(int month, int day)
