@@ -38,10 +38,10 @@ public class CLASS
         return valid;
     }
 
-    public static double calculateTicketPrice(int month, int day)
+    public static void calculateTicketPrice(int month, int day)
     {
         boolean isHoliday = true;
-        String holiday;
+        String holiday = "";
         if (month == 1 && day == 1) {
             holiday = "New Years";
         }
@@ -62,7 +62,7 @@ public class CLASS
         }
 
         if (isHoliday) {
-            System.out.println("Ticket prices for " + holiday + " will cost you $150");
+            System.out.println("Ticket prices for " + holiday + " will cost you $150.");
         }
         else if (month == 6 || month == 7 || month == 8) {
             System.out.println("Ticket prices for " + month + "/" + day + " will cost you $125 in the summer.");
