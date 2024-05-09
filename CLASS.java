@@ -66,7 +66,7 @@ public double calculateTicketPrice(int month, int day)
         System.out.println("Ticket prices for " + month + "/" + day + " will cost you $125 in the summer.");
     }
     else {
-        System.out.println("Ticket prices for " + month +)
+        System.out.println("Ticket prices for " + month + "/" + day + " will cost you $100.")
     }
     
 }
