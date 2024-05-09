@@ -5,8 +5,8 @@ public class CLASS
     public static void main(String args[])
     {
         Scanner scnr = new Scanner(System.in);
-        int month;
-        int day;
+        int month = 0;
+        int day = 0;
         boolean valid = false;
 
         System.out.println("Hi, Welcome to Six Flags Theme Park!");
