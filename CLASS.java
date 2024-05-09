@@ -10,7 +10,7 @@ public class CLASS
         boolean valid = false;
 
         System.out.println("Hi, Welcome to Six Flags Theme Park!");
-        System.out.println("Please enter the month and day you would like to purchase tickets");
+        System.out.println("Please enter the month and day you would like to purchase tickets.");
 
         while(!valid)
         {
