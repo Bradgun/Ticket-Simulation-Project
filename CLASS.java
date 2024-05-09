@@ -47,19 +47,19 @@ public double calculateTicketPrice(int month, int day)
 public String checkHoliday(int month, int day)
 {
     String holiday;
-    if (month = 1 && day = 1) {
+    if (month == 1 && day == 1) {
         holiday = "New Years";
     }
-    else if (month = 7 && day = 4) {
+    else if (month == 7 && day == 4) {
         holiday = "Independence Day";
     }
-    else if (month = 11 && day = 11) {
+    else if (month = 11 && day == 11) {
         holiday = "Veterans Day";
     }
-    else if (month = 11 && day = 28) {
+    else if (month == 11 && day == 28) {
         holiday = "Thanksgiving Day";
     }
-    else if (month = 12 && day = 25) {
+    else if (month == 12 && day == 25) {
         holiday = "Christmas";
     }
     return holiday;
