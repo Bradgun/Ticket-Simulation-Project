@@ -12,10 +12,8 @@ public static void main(String args[])
 
     while(!valid)
     {
-        System.out.println("Enter a month: ");
         System.out.print("Enter month: ");
         month = scnr.nextInt();
-        System.out.println("Enter a day: ");
         System.out.print("Enter day: ");
         day = scnr.nextInt();
         valid = checkValidity(month, day);
