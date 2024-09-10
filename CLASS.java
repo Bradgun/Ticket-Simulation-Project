@@ -58,7 +58,7 @@ public class CLASS
             holiday = "Christmas";
         }
         else {
-            isHoliday = false;
+            isHoliday = false;          //comment
         }
 
         if (isHoliday) {

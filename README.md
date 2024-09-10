@@ -6,5 +6,5 @@ How to use the Project: In the prompt, the code will ask you to input a number t
 CS 2400 Assignment
 1. Bradley Gunawan
 2. https://github.com/Bradgun/Ticket-Simulation-Project.git
-3. 
+3. https://vimeo.com/1007923801?share=copy
 4. OBS 30.2.3
