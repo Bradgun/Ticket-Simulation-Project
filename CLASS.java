@@ -38,7 +38,7 @@ public class CLASS
         return valid;
     }
 
-    public static void calculateTicketPrice(int month, int day)
+    public static void calculateTicketPrice(int month, int day) 
     {
         boolean isHoliday = true;
         String holiday = "";
