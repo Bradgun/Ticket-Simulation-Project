@@ -7,4 +7,4 @@ CS 2400 Assignment
 1. Bradley Gunawan
 2. https://github.com/Bradgun/Ticket-Simulation-Project.git
 3. 
-4. 
+4. OBS 30.2.3
